@@ -13,8 +13,8 @@ engine = create_engine(conn_string)
 conn = engine.connect()
 
 # Fungsi untuk mengekstrak data dummy
-def ekstrak(url):
-    df = pd.read_csv(url)
+def ekstrak(file_dir):
+    df = pd.read_csv(file_dir)
     return df
 
 # Fungsi untuk melakukan transformasi data
