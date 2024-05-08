@@ -47,7 +47,3 @@ if __name__ == "__main__":
 
     print("Data dummy produksi dan penjualan pabrik mainan telah dibuat dan disimpan dalam file Production_and_Sales.csv")
 
-df=pd.read_csv('/content/Production_and_Sales.csv')
-
-df
-
