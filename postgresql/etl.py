@@ -36,7 +36,7 @@ def load(df, table_name):
     df.to_sql(table_name, engine, if_exists='replace', index=False)
 
 # Ekstrak data dummy
-url = 'https://raw.githubusercontent.com/muutikk/project-kel10/main/Production_and_Sales.csv'
+url = 'C:\Users\HP\OneDrive\MSIB GIT\project-kel10\Data_Dummy\Production_and_Sales.csv'
 df = ekstrak(url)
 
 # Transformasi data
